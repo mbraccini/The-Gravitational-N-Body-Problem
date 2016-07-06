@@ -1,0 +1,14 @@
+target=nbody_pap1314.jpf.SimulatorJPF
+report.console.property_violation=error,snapshot,trace
+
+# Deadlock Analyzer is a deadlock-specific trace report generator
+listener+=,.listener.DeadlockAnalyzer
+
+# Overlapping Method Analyzer reports which method is called concurrently by different threads (if any)
+listener+=,.listener.OverlappingMethodAnalyzer
+
+deadlock.format=essential
+
+
+classpath=build
+sourcepath=src

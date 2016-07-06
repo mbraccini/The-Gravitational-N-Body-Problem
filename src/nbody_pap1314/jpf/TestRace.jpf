@@ -1,0 +1,9 @@
+target=nbody_pap1314.jpf.SimulatorJPF
+report.console.property_violation=error,snapshot,trace
+
+listener+=,.listener.PreciseRaceDetector
+listener+=,.listener.AssertionProperty
+
+
+classpath=build
+sourcepath=src

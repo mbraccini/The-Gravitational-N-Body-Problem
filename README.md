@@ -1,1 +1,1 @@
-# The-Gravitational-N-Body-Problem
+The Gravitational N-Body Problem
